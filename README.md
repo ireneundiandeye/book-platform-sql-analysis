@@ -15,16 +15,16 @@ The database contains five related tables. The `books` table holds each book's t
 | Question | Result |
 |---|---|
 | How many books were released after 1 January 2000? | 819 books |
-| How many reviews and what average rating does each book have? | Calculated for every book in the catalogue (see notebook) |
+| How many reviews and what average rating does each book have? | Calculated for all 1,000 books; *Twilight* is the most reviewed, with 7 reviews |
 | Which publisher has released the most books longer than 50 pages? | Penguin Books, with 42 books |
-| Which author has the highest average rating among books with at least 50 ratings? | [update after rerunning the corrected query] |
+| Which author has the highest average rating among books with at least 50 ratings? | J.K. Rowling (with illustrator Mary GrandPré), averaging 4.29 |
 | How many text reviews, on average, do users who rated more than 50 books write? | About 24 reviews per user |
 
-The results show that most of the catalogue consists of books published since 2000, that a small number of large publishers dominate full-length titles, and that the platform's most active raters are also substantial contributors of written reviews, which makes them a valuable group to engage when launching the product.
+The results show that most of the catalogue consists of books published since 2000, that a small number of large publishers dominate full-length titles, and that widely read series such as Harry Potter and Twilight attract both the highest ratings and the most discussion. The platform's most active raters are also substantial contributors of written reviews, which makes them a valuable group to engage when launching the product.
 
 ## Skills Demonstrated
 
-This project uses multi-table joins, aggregation with `GROUP BY` and `HAVING`, subqueries for filtering on aggregated conditions, and the integration of SQL with Python for querying and presenting results.
+This project uses multi-table joins, aggregation with `GROUP BY` and `HAVING`, correlated subqueries, filtering on aggregated conditions, and the integration of SQL with Python for querying and presenting results.
 
 ## How to Run
 
